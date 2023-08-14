@@ -33,6 +33,7 @@ function taxCalculation( options: TaxCalculationOptions ): number[] {
 }
 
 
+
 const shoppingCart = [phone, car];
 const tax = 0.15;
 
