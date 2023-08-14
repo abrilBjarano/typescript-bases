@@ -34,9 +34,19 @@ const {
 const { author } = details;
 
 // console.log('Song: ', audioPlayer.song);
-console.log('Song: ', anotherSong);
-console.log('Duration: ', duration);
-console.log('Author: ', author);
+// console.log('Song: ', anotherSong);
+// console.log('Duration: ', duration);
+// console.log('Author: ', author);
+
+
+
+// const amigos: string[] = ['pau', 'eduardo', 'yo'];
+// const yo = amigos[3] || 'No hay amigo';
+
+
+const [ , , yo = 'Not found']: string[] = ['pau', 'eduardo'];
+
+console.log('Amigo 3: ', yo);
 
 
 
