@@ -1,4 +1,4 @@
-// 📎 Array destructuing is made with {}
+// 📎 Array destructuing is made with []
 
 
 const discosShakira: string[] = ['Pies', 'Ladrones', 'Fijación'];
