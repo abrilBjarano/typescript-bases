@@ -3,7 +3,8 @@
 // import './topics/03-functions';
 // import './topics/04-homework-types';
 // import './topics/05-basic-destructuring';
-import './topics/06-arrays-destructuring';
+// import './topics/06-arrays-destructuring';
+import './topics/07-function-destructuring';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   hola mundo
