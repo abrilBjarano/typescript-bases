@@ -1,3 +1,7 @@
+// 📎 Object destructuing is made with {}
+
+
+
 interface AudioPlayer {
    audioVolume: number;
    songDuration: number;
@@ -21,7 +25,7 @@ const audioPlayer: AudioPlayer = {
 }
 
 
-/* Vanilla way ⬇️ */
+/* Vanilla way ⬇️⬇️⬇⬇️ */
 
 console.log('Song vanilla way: ', audioPlayer.song);
 console.log('Author vanilla way: ', audioPlayer.details.author);
@@ -59,7 +63,7 @@ console.log('Song duration: ', duration /* duration equals to songDuration prope
 /* Lets practice! ⬇️⬇️⬇️ */ console.log('🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥🦥');
 
 
-/* Make an Object and then create the Interaface and destructure it.  */
+// Make an Object and then create the Interaface and destructure it. 
 
 
 interface MovieDisplay {
