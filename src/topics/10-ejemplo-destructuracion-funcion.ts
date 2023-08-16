@@ -23,27 +23,35 @@ interface WhoIsOlderOptions {
 }
 
 
-function whoIsOlder( options: WhoIsOlderOptions ): [number] {
+function whoIsOlder( options: WhoIsOlderOptions, nombre?: string ): [number, string] {
+
+   console.log(nombre);
+   
    
    let mayor = 0;
 
    const { girls } = options;
+   
 
    girls.forEach( ({age}) => {
+      
       if( age > mayor){
          mayor = age;
       }
    });
 
+   const girl = girls.find(( girl )=>
+      ( mayor === girl.age )
+   );
 
-   return [mayor];
+   return [mayor, girl?.name || ''];
 }
 
 const girlsList = [pers1, pers2, pers3];
 
-const [result] = whoIsOlder({
+const [result, girlName] = whoIsOlder({
    girls: girlsList,
 })
 
 
-console.log('La persona mayor es: ', result);
+console.log(`La persona mayor es: ${girlName}, ${ result }`);
