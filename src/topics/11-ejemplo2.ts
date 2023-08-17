@@ -73,10 +73,10 @@ function shorterSong( options: ShorterSongOptions ): [number, string, string] {
 const songsList = [ song1, song2, song3, song4, song5, song6 ];
 
 
-const [ duration, name, singer ] = shorterSong({
+const [ durationSong, nameSong, singerSong ] = shorterSong({
    songs: songsList,
 })
 
 
-console.log(`La canción que tiene la duración menor es ${ name } de ${ singer }, con una duración de ${ duration }`);
+console.log(`La canción que tiene la duración menor es ${ nameSong } de ${ singerSong }, con una duración de ${ durationSong }`);
 
