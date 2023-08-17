@@ -5,7 +5,8 @@
 // import './topics/05-basic-destructuring';
 // import './topics/06-arrays-destructuring';
 // import './topics/07-function-destructuring';
-import './topics/10-ejemplo-destructuracion-funcion';
+// import './topics/10-ejemplo-destructuracion-funcion';
+import './topics/11-ejemplo2';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   hola mundo
