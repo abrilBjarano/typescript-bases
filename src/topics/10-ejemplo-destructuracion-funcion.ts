@@ -23,10 +23,7 @@ interface WhoIsOlderOptions {
 }
 
 
-function whoIsOlder( options: WhoIsOlderOptions, nombre?: string ): [number, string] {
-
-   console.log(nombre);
-   
+function whoIsOlder( options: WhoIsOlderOptions ): [number, string] {
    
    let mayor = 0;
 

@@ -12,15 +12,3 @@ const person2: Names = {
    name: 'Boli',
    age: 20,
 }
-
-interface NamesOptions {
-   people: Names[];
-}
-
-function whosOlder( options: NamesOptions ): string {
-
-   const { name } = options;
-
-   
-
-} 
