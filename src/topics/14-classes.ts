@@ -8,17 +8,15 @@ export class Person {
 
    constructor (
          public name: string, 
-         public address: string, 
-         public bloodType: string = 'No hay tipo de sangre'
+         public address: string
    ) {}
 }
 
 
-const grisi = new Person('Abril', 'Monterrey, NL');
-const nat = new Person('Natalia', 'Cadereyta, NL', 'O');
-console.log( grisi );
-console.log( nat );
-
+// const grisi = new Person('Abril', 'Monterrey, NL');
+// const nat = new Person('Natalia', 'Cadereyta, NL');
+// console.log( grisi );
+// console.log( nat );
 
 
 /*  EXTENDER UNA CLASE  */
@@ -29,9 +27,9 @@ export class Ingeniero extends Person {
       public titulo: boolean,
       public name: string
    ){
-      super( name, 'Monterrey, NL', 'No hay tipo de sangre' );
+      super(name, 'Monterrey, NL');
    }
 }
 
-const eduardo = new Ingeniero(true, true, 'Eduardo');
+const eduardo = new Ingeniero(true, true, 'Eduardo',);
 console.log(eduardo);
