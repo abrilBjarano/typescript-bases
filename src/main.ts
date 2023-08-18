@@ -12,7 +12,7 @@ import './topics/13-import-export';
 // import './topics/';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  hola mundo
+  🌳🦒🌳
 `
 
 // console.log('holas');

@@ -1,4 +1,4 @@
-interface Product {
+export interface Product {
    name: string;
    price: number;
 }
@@ -9,17 +9,17 @@ const billetera: Product = {
 }
 
 const audifonos: Product = {
-name: 'Audifonos Realme',
+   name: 'Audifonos Realme',
    price: 1000
 }
 
 const compu: Product = {
-name: 'Huawei Mate 13',
+   name: 'Huawei Mate 13',
    price: 21000
 }
 
 const discoShakira: Product = {
-name: 'Fijación Oral',
+   name: 'Fijación Oral',
    price: 100
 }
 
@@ -31,7 +31,7 @@ interface AccountTotalOptions {
    tax: number;
 }
 
-function accountTotal(options: AccountTotalOptions): [number, number, string[], number] {
+export function accountTotal(options: AccountTotalOptions): [number, number, string[], number] {
 
    let totalProducts = 0;
 
@@ -53,7 +53,7 @@ const [taxTotal, totalProducts, productsName, total] = accountTotal({
    tax: .15, 
 });
 
-console.log(`El total de los productos: ${ productsName } \nes de ${ totalProducts } con un total de tax de ${ taxTotal }.\nLo cual da un total de ${ total }`);
+// console.log(`El total de los productos: ${ productsName } \nes de ${ totalProducts } con un total de tax de ${ taxTotal }.\nLo cual da un total de ${ total }`);
 
 
 
