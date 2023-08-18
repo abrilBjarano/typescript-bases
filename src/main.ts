@@ -9,7 +9,8 @@
 // import './topics/11-ejemplo2';
 // import './topics/12-optimizacion-tarea-08';
 // import './topics/13-import-export';
-import './topics/14-classes';
+// import './topics/14-classes';
+import './topics/15-ejemplo-extends';
 // import './topics/';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
