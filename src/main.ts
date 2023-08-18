@@ -8,7 +8,8 @@
 // import './topics/10-ejemplo-destructuracion-funcion';
 // import './topics/11-ejemplo2';
 // import './topics/12-optimizacion-tarea-08';
-import './topics/13-import-export';
+// import './topics/13-import-export';
+import './topics/14-classes';
 // import './topics/';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
