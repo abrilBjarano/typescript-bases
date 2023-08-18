@@ -56,3 +56,13 @@ const [taxTotal, totalProducts, productsName, total] = accountTotal({
 console.log(`El total de los productos: ${ productsName } \nes de ${ totalProducts } con un total de tax de ${ taxTotal }.\nLo cual da un total de ${ total }`);
 
 
+
+
+
+
+
+
+
+
+
+export {};

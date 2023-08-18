@@ -52,3 +52,12 @@ const [result, girlName] = whoIsOlder({
 
 
 console.log(`La persona mayor es: ${girlName}, ${ result }`);
+
+
+
+
+
+
+
+
+export {};

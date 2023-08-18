@@ -80,3 +80,9 @@ const [ durationSong, nameSong, singerSong ] = shorterSong({
 
 console.log(`La canción que tiene la duración menor es ${ nameSong } de ${ singerSong }, con una duración de ${ durationSong }`);
 
+
+
+
+
+
+export{};

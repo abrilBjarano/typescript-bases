@@ -7,7 +7,9 @@
 // import './topics/07-function-destructuring';
 // import './topics/10-ejemplo-destructuracion-funcion';
 // import './topics/11-ejemplo2';
-import './topics/12-optimizacion-tarea-08';
+// import './topics/12-optimizacion-tarea-08';
+import './topics/13-import-export';
+// import './topics/';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   hola mundo
