@@ -2,15 +2,19 @@
 
 
 export class Person {
-   public name: string;
-   public addres: string;
+   // public name: string;
+   // public address: string;
+   // public bloodType?: string;
 
-   constructor () {
-      this.name = 'Abril';
-      this.addres = 'Monterrey';
-   }
+   constructor (
+         public name: string, 
+         public address: string, 
+         public bloodType: string = 'No hay tipo de sangre'
+   ) {}
 }
 
 
-const grisi = new Person();
+const grisi = new Person('Abril', 'Monterrey, NL');
+const nat = new Person('Natalia', 'Cadereyta, NL', 'O');
 console.log( grisi );
+console.log( nat );
