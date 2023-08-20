@@ -1,14 +1,15 @@
 export class Person {
 
    constructor(
-      public name: string = 'No name',
+      public firstName: string = 'No firstName',
+      public lastName: string = 'No lastName',
       public address: string = 'No address',
    ){}
 }
 
-
-const noName = new Person();
-console.log(noName); 
+{
+// const noName = new Person();
+// console.log(noName); 
 /* 
 
 Output:
@@ -21,19 +22,34 @@ name:
 */
 
 
-export class Hero extends Person {
-   
+
+// export class Hero extends Person {
+//    constructor(
+//       public alterEgo: string,
+//       public age: number,
+//       public realName: string
+//    ){
+//       super( realName, 'Monterrey');
+//    }
+// }
+}
+
+export class Hero {
+
+   // public person: Person;
+
    constructor(
       public alterEgo: string,
       public age: number,
-      public realName: string
+      public realName: string,
+      public person: Person,
    ){
-      super( realName, 'Monterrey');
    }
 }
 
-const abril = new Hero('Spiderman', 25, 'Peter Parker');
-console.log(abril);
+const peter = new Person('Peter', 'Parker', 'Monterrey')
+const spiderman = new Hero('Spiderman', 25, 'Peter Parker', peter);
+console.log(spiderman);
 
 
 
