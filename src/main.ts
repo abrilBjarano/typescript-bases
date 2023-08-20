@@ -11,7 +11,9 @@
 // import './topics/13-import-export';
 // import './topics/14-classes';
 // import './topics/15-ejemplo-extends';
-import './topics/16-classes2';
+// import './topics/16-classes2';
+// import './topics/17-composicion-sobre-herencia';
+import './topics/18-generics';
 // import './topics/';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
