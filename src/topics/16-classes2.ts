@@ -6,8 +6,6 @@ export class Person {
    ){}
 }
 
-const abril = new Person('Abril Bejarano', 'Monterrey');
-console.log(abril);
 
 const noName = new Person();
 console.log(noName); 
@@ -21,3 +19,24 @@ name:
 "No name"
 
 */
+
+
+export class Hero extends Person {
+   
+   constructor(
+      public alterEgo: string,
+      public age: number,
+      public realName: string
+   ){
+      super( realName, 'Monterrey');
+   }
+}
+
+const abril = new Hero('Spiderman', 25, 'Peter Parker');
+console.log(abril);
+
+
+
+
+
+
