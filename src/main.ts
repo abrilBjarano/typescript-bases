@@ -14,7 +14,8 @@
 // import './topics/16-classes2';
 // import './topics/17-composicion-sobre-herencia';
 // import './topics/18-generics';
-import './topics/19-decorators';
+// import './topics/19-decorators';
+import './topics/20-optional-chaining';
 // import './topics/';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
